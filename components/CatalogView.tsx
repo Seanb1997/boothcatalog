@@ -10,7 +10,7 @@ export default function CatalogView({ products, siteSettings }: { products: Prod
   const [filters, setFilters] = useState<FilterOptions>({});
 
   const filtered = products.filter(p => {
-    if (filters.type?.length && !filters.type.includes(p.type)) return false;
+    if (filters.type?.length && !filters.type.some(t => t.toLowerCase().startsWith(p.type))) return false;
     if (filters.size?.length && (!p.size || !filters.size.includes(p.size))) return false;
     if (
       filters.feature?.length &&
