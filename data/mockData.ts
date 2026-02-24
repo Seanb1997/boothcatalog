@@ -30,11 +30,11 @@ export const mockProducts: Product[] = [
   // --- Structures ---
   {
     id: 'struct-001',
-    name: 'Lorem ipsum',
+    name: 'Tunnel Totem',
     type: 'structure',
     size: 'Medium',
-    category: 'Display',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+    category: 'Totem',
+    description: 'The Tunnel Totem is an immersive architectural feature that guides movement through a space while creating strong visual impact. Ideal for entrances or transitions, it can be customised with finishes, lighting, or branding to enhance wayfinding and brand presence.',
     price: 0.00,
     priceType: 'unit',
     stockQuantity: 5,
@@ -42,60 +42,60 @@ export const mockProducts: Product[] = [
     imageUrl: '/Images/Furniture/2x/Furniture 01@2x.png',
     customizationOptions: customizationOptions.default,
     status: 'available',
-    tags: ['display', 'medium']
+    tags: ['totem', 'medium']
   },
   {
     id: 'struct-002',
-    name: 'Lorem ipsum',
+    name: 'Short Totem',
     type: 'structure',
     size: 'Large',
-    category: 'Display',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+    category: 'Totem',
+    description: 'The Short Totem is a compact, freestanding feature designed for exhibition booths, providing clear, compliant messaging at eye level. Ideal for product highlights, key information, or brand presence, it delivers strong visual impact while maintaining a clean, professional aesthetic suited to regulated environments.',
     price: 0.00,
     priceType: 'unit',
     stockQuantity: 3,
     isCustomizable: false,
     imageUrl: '/Images/Furniture/2x/Furniture 02@2x.png',
     status: 'available',
-    tags: ['display', 'large']
+    tags: ['totem', 'large']
   },
   {
     id: 'struct-003',
-    name: 'Lorem ipsum',
-    type: 'structure',
+    name: 'Tables with Upholstered Stools',
+    type: 'furniture',
     size: 'Medium',
-    category: 'Counter',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+    category: 'Seating',
+    description: 'Tables with upholstered stools provide a comfortable and professional setting for one-to-one discussions within pharmaceutical exhibition booths. Designed to support meaningful conversations, they create a welcoming, compliant space for engagement while maintaining a clean and considered booth aesthetic.',
     price: 0.00,
     priceType: 'unit',
     stockQuantity: 4,
     isCustomizable: false,
     imageUrl: '/Images/Furniture/2x/Furniture 03@2x.png',
     status: 'available',
-    tags: ['counter', 'medium']
+    tags: ['seating', 'medium']
   },
   {
     id: 'struct-004',
-    name: 'Lorem ipsum',
+    name: 'VR Headset Desk',
     type: 'structure',
     size: 'Large',
     category: 'Interactive',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+    description: 'A small sleek corner unit for Virtual reality deliverable.',
     price: 0.00,
     priceType: 'unit',
     stockQuantity: 2,
     isCustomizable: false,
     imageUrl: '/Images/Furniture/2x/Furniture 04@2x.png',
     status: 'available',
-    tags: ['interactive', 'large']
+    tags: ['display', 'large', 'led']
   },
   {
     id: 'struct-005',
-    name: 'Lorem ipsum',
+    name: 'Totem with Seating',
     type: 'structure',
     size: 'Small',
-    category: 'Counter',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+    category: 'Totem',
+    description: 'The Totem with Seating combines integrated messaging with informal seating, creating a welcoming touchpoint within exhibition booths. It supports focused conversations and brief meetings while presenting clear, compliant brand or product information in a professional, well-considered format.',
     price: 0.00,
     priceType: 'unit',
     stockQuantity: 6,
@@ -103,15 +103,15 @@ export const mockProducts: Product[] = [
     imageUrl: '/Images/Furniture/2x/Furniture 05@2x.png',
     customizationOptions: customizationOptions.default,
     status: 'available',
-    tags: ['counter', 'small']
+    tags: ['totem', 'small']
   },
   {
     id: 'struct-006',
-    name: 'Lorem ipsum',
+    name: 'LED Freestanding Portrait Totem',
     type: 'structure',
     size: 'Medium',
     category: 'Display',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+    description: 'The LED Freestanding Portrait Totem is a sleek digital display solution for pharmaceutical exhibition booths, ideal for presenting dynamic, compliant content. Its vertical format maximises visibility while delivering clear product messaging, animations, or data in a modern, professional and controlled manner.',
     price: 0.00,
     priceType: 'unit',
     stockQuantity: 5,
@@ -124,11 +124,11 @@ export const mockProducts: Product[] = [
   // --- Booths ---
   {
     id: 'booth-island-180',
-    name: 'Island 180',
+    name: 'Island Booth up to 180 sqm',
     type: 'booth',
     size: 'Large',
     category: 'Island',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
+    description: 'Select this option if your exhibition booth is sized between 100 sqm to 180 sqm. This category covers large-scale pharmaceutical island booths and includes costs associated with hanging banners, bespoke design, and additional structural elements required to deliver a compliant, high-impact presence within the exhibition space.',
     price: 0.00,
     priceType: 'booth',
     stockQuantity: 2,
@@ -170,5 +170,5 @@ export const mockProducts: Product[] = [
 
 export const filterTypeOptions = ['Booths', 'Structures', 'Furniture'];
 export const filterSizeOptions = ['Small', 'Medium', 'Large'];
-export const filterFeatureOptions = ['Display', 'Counter', 'Interactive'];
+export const filterFeatureOptions = ['Totem', 'Display', 'Seating', 'Interactive'];
 export const filterSpecificationOptions = ['Single-sided', 'Double-sided', 'Freestanding', 'Wall-mounted'];
