@@ -40,6 +40,11 @@ export default function Header({ siteSettings = defaultSettings }: { siteSetting
                 {siteSettings.navFurnitureLabel}
               </Link>
 
+              <span className="text-gray-300 select-none">|</span>
+              <Link href="/brief" className="text-gray-700 hover:text-jnj-red transition-colors">
+                Brief
+              </Link>
+
               <Link href="/cart" className="relative ml-4 group">
                 <BsBasket2 className="w-6 h-6 text-jnj-red group-hover:text-jnj-red-dark transition-colors" />
                 {itemCount > 0 && (
