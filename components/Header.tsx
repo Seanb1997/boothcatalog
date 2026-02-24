@@ -5,7 +5,14 @@ import { BsBasket2 } from 'react-icons/bs';
 import { useCartStore } from '../lib/cartStore';
 import { SiteSettings } from '../types';
 
-export default function Header({ siteSettings }: { siteSettings: SiteSettings }) {
+const defaultSettings: SiteSettings = {
+  siteName: 'J&J Booth Builder',
+  navBoothsLabel: 'Booths',
+  navStructuresLabel: 'Structures',
+  navFurnitureLabel: 'Furniture',
+};
+
+export default function Header({ siteSettings = defaultSettings }: { siteSettings?: SiteSettings }) {
   const itemCount = useCartStore(state => state.getItemCount());
 
   return (
