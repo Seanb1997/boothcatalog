@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(powershell -Command \"Expand-Archive -Path ''F:\\\\RFP\\\\Catalogue assets.zip'' -DestinationPath ''C:\\\\Users\\\\Sean\\\\Documents\\\\00 test\\\\booth-catalog\\\\public\\\\images\\\\'' -Force\")",
+      "Bash(powershell.exe -Command \"Expand-Archive -Path ''F:\\\\RFP\\\\Catalogue assets.zip'' -DestinationPath ''C:\\\\Users\\\\Sean\\\\Documents\\\\00 test\\\\booth-catalog\\\\public\\\\images\\\\'' -Force\")",
+      "Bash(/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command \"Expand-Archive -Path ''F:\\\\RFP\\\\Catalogue assets.zip'' -DestinationPath ''C:\\\\Users\\\\Sean\\\\Documents\\\\00 test\\\\booth-catalog\\\\public\\\\images\\\\'' -Force\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ls -la \"C:\\\\Users\\\\Sean\\\\Documents\\\\00 test\\\\booth-catalog\\\\components\"\" 2>&1 || echo \"Directory not found \")"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# environment variables (keep secrets local)
+.env.local
+.env.*.local
+
+# Sanity CLI
+.sanity/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# Vercel
+.vercel
