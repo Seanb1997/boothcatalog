@@ -146,11 +146,11 @@ export const mockProducts: Product[] = [
   },
   {
     id: 'booth-island-60',
-    name: 'Island 60',
+    name: 'Island Booth up to 100 sqm',
     type: 'booth',
     size: 'Medium',
     category: 'Island',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
+    description: 'Select this option if your exhibition booth is sized between 60 sqm to 100 sqm. This category covers medium-scale pharmaceutical island booths and includes costs associated with hanging banners, bespoke design, and additional structural elements required to deliver a compliant, high-impact presence within the exhibition space.',
     price: 0.00,
     priceType: 'booth',
     stockQuantity: 1,
